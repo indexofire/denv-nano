@@ -1,0 +1,10 @@
+{
+  "name": "HZCDC Dengue virus serotype 1 protocol v1.0",
+  "description": "Amplicon based sequencing of Dengue virus serotype 1.",
+  "url": "http://indexofire.github.io/pathongs",
+  "displayOptions": {
+    "coverageThresholds": {
+      ">200x": 200, ">100x": 100, ">20x": 20, "0x": 0
+    }
+  }
+}

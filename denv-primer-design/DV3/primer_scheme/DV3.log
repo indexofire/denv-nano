@@ -1,0 +1,845 @@
+2021-09-06 00:39:39,952 - DEBUG - primalscheme version 1.3.2
+2021-09-06 00:39:39,953 - INFO - References:
+ - NC_001475.2
+2021-09-06 00:39:39,953 - INFO - Primary reference for coordinate system: NC_001475.2
+2021-09-06 00:39:39,953 - INFO - Considering primers from all references
+2021-09-06 00:39:39,953 - DEBUG - MuliplexScheme
+Prefix: DV3
+Amplicon size range: 523 - 577
+Target overlap: 0
+Primary only (pinned): False
+References:
+ - NC_001475.2
+2021-09-06 00:39:39,953 - DEBUG - Window: left_limit 0, slice_start 0, right_limit 10707
+2021-09-06 00:39:39,954 - DEBUG - Region 1, pool 1
+2021-09-06 00:39:39,954 - DEBUG - Finding primers for slice 0 to 576
+2021-09-06 00:39:40,099 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+AGTTGTTAGTCTACGTGGACCGACAAGAACAGTTTCGACTCGGA...AGT NC_001475.2
+2021-09-06 00:39:40,099 - DEBUG - Picked primer LEFT:TGTTAGTCTACGTGGACCGACA:3
+2021-09-06 00:39:40,099 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TGTTAGTCTACGTGGACCGACA NC_001475.2
+********************** Cigar
+2021-09-06 00:39:40,100 - DEBUG - LEFT candidate 0: base pen 0.009, combined pen 0.009, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,100 - DEBUG - LEFT candidate 1: base pen 0.021, combined pen 0.021, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,100 - DEBUG - LEFT candidate 2: base pen 0.096, combined pen 0.096, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,100 - DEBUG - LEFT candidate 3: base pen 0.098, combined pen 0.098, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,100 - DEBUG - LEFT candidate 4: base pen 0.235, combined pen 0.235, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,100 - DEBUG - LEFT candidate 5: base pen 0.254, combined pen 0.254, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,101 - DEBUG - LEFT candidate 6: base pen 0.491, combined pen 0.491, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,101 - DEBUG - LEFT candidate 7: base pen 0.510, combined pen 0.510, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,101 - DEBUG - LEFT candidate 8: base pen 0.529, combined pen 0.529, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,101 - DEBUG - LEFT candidate 9: base pen 0.661, combined pen 0.661, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,101 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+GTCATCACACATCTCTCCCAAATCCATGGCTATGAGTGTGCACA...GCT NC_001475.2
+2021-09-06 00:39:40,101 - DEBUG - Picked primer RIGHT:ATCCATGGCTATGAGTGTGCAC:555
+2021-09-06 00:39:40,101 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+ATCCATGGCTATGAGTGTGCAC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:40,102 - DEBUG - RIGHT candidate 0: base pen 0.071, combined pen 0.071, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,102 - DEBUG - RIGHT candidate 1: base pen 0.190, combined pen 0.190, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,102 - DEBUG - RIGHT candidate 2: base pen 0.392, combined pen 0.392, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,102 - DEBUG - RIGHT candidate 3: base pen 0.657, combined pen 0.657, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,102 - DEBUG - RIGHT candidate 4: base pen 0.724, combined pen 0.724, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,102 - DEBUG - RIGHT candidate 5: base pen 0.855, combined pen 0.855, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,102 - DEBUG - RIGHT candidate 6: base pen 1.053, combined pen 1.053, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,103 - DEBUG - RIGHT candidate 7: base pen 1.117, combined pen 1.117, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,103 - DEBUG - RIGHT candidate 8: base pen 1.191, combined pen 1.191, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,103 - DEBUG - RIGHT candidate 9: base pen 1.218, combined pen 1.218, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,105 - DEBUG - Window: left_limit 25, slice_start 445, right_limit 10707
+2021-09-06 00:39:40,105 - DEBUG - Region 2, pool 2
+2021-09-06 00:39:40,105 - DEBUG - Finding primers for slice 445 to 1021
+2021-09-06 00:39:40,234 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+ACTTCACGAGATGGAGAGCCGCGCATGATTGTGGGGAAGAATGA...TAC NC_001475.2
+2021-09-06 00:39:40,234 - DEBUG - Picked primer LEFT:CGCATGATTGTGGGGAAGAATG:466
+2021-09-06 00:39:40,234 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+CGCATGATTGTGGGGAAGAATG NC_001475.2
+********************** Cigar
+2021-09-06 00:39:40,234 - DEBUG - LEFT candidate 0: base pen 0.598, combined pen 0.598, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,235 - DEBUG - LEFT candidate 1: base pen 1.029, combined pen 1.029, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,235 - DEBUG - LEFT candidate 2: base pen 1.660, combined pen 1.660, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,235 - DEBUG - LEFT candidate 3: base pen 1.745, combined pen 1.745, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,235 - DEBUG - LEFT candidate 4: base pen 2.048, combined pen 2.048, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,235 - DEBUG - LEFT candidate 5: base pen 2.194, combined pen 2.194, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,235 - DEBUG - LEFT candidate 6: base pen 2.597, combined pen 2.597, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,235 - DEBUG - LEFT candidate 7: base pen 3.257, combined pen 3.257, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,236 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+ACCCCCCGTGCTCGAGCACCACGTCAACCCACGTAGCTCCTGAT...ATC NC_001475.2
+2021-09-06 00:39:40,236 - DEBUG - Picked primer RIGHT:TCAACCCACGTAGCTCCTGATA:998
+2021-09-06 00:39:40,236 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TCAACCCACGTAGCTCCTGATA NC_001475.2
+********************** Cigar
+2021-09-06 00:39:40,236 - DEBUG - RIGHT candidate 0: base pen 0.194, combined pen 0.194, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,236 - DEBUG - RIGHT candidate 1: base pen 0.597, combined pen 0.597, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,236 - DEBUG - RIGHT candidate 2: base pen 1.000, combined pen 1.000, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,237 - DEBUG - RIGHT candidate 3: base pen 1.232, combined pen 1.232, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,237 - DEBUG - RIGHT candidate 4: base pen 1.752, combined pen 1.752, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,237 - DEBUG - RIGHT candidate 5: base pen 1.998, combined pen 1.998, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,237 - DEBUG - RIGHT candidate 6: base pen 2.442, combined pen 2.442, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,239 - DEBUG - Window: left_limit 556, slice_start 888, right_limit 10707
+2021-09-06 00:39:40,239 - DEBUG - Region 3, pool 1
+2021-09-06 00:39:40,239 - DEBUG - Finding primers for slice 888 to 1464
+2021-09-06 00:39:40,363 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+GGTGGTTATTTTCATATTATTAATGCTGGTCACCCCATCCATGA...GGA NC_001475.2
+2021-09-06 00:39:40,363 - DEBUG - Picked primer LEFT:ATTAATGCTGGTCACCCCATCC:906
+2021-09-06 00:39:40,364 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+ATTAATGCTGGTCACCCCATCC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:40,364 - DEBUG - LEFT candidate 0: base pen 0.390, combined pen 0.390, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,364 - DEBUG - LEFT candidate 1: base pen 0.695, combined pen 0.695, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,364 - DEBUG - LEFT candidate 2: base pen 0.891, combined pen 0.891, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,364 - DEBUG - LEFT candidate 3: base pen 1.296, combined pen 1.296, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,364 - DEBUG - LEFT candidate 4: base pen 1.560, combined pen 1.560, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,364 - DEBUG - LEFT candidate 5: base pen 1.831, combined pen 1.831, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,365 - DEBUG - LEFT candidate 6: base pen 1.933, combined pen 1.933, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,365 - DEBUG - LEFT candidate 7: base pen 2.017, combined pen 2.017, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,365 - DEBUG - LEFT candidate 8: base pen 2.139, combined pen 2.139, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,365 - DEBUG - LEFT candidate 9: base pen 2.249, combined pen 2.249, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,365 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TCCATATTCAGGCAAGATGGCTTCAGTGGTTGATGCCTGAGGTG...ACT NC_001475.2
+2021-09-06 00:39:40,365 - DEBUG - Picked primer RIGHT:CTTCAGTGGTTGATGCCTGAGG:1444
+2021-09-06 00:39:40,365 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+CTTCAGTGGTTGATGCCTGAGG NC_001475.2
+********************** Cigar
+2021-09-06 00:39:40,366 - DEBUG - RIGHT candidate 0: base pen 0.378, combined pen 0.378, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,366 - DEBUG - RIGHT candidate 1: base pen 0.577, combined pen 0.577, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,366 - DEBUG - RIGHT candidate 2: base pen 0.947, combined pen 0.947, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,366 - DEBUG - RIGHT candidate 3: base pen 1.014, combined pen 1.014, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,366 - DEBUG - RIGHT candidate 4: base pen 1.074, combined pen 1.074, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,366 - DEBUG - RIGHT candidate 5: base pen 1.077, combined pen 1.077, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,366 - DEBUG - RIGHT candidate 6: base pen 1.265, combined pen 1.265, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,367 - DEBUG - RIGHT candidate 7: base pen 1.339, combined pen 1.339, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,367 - DEBUG - RIGHT candidate 8: base pen 1.467, combined pen 1.467, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,367 - DEBUG - RIGHT candidate 9: base pen 1.493, combined pen 1.493, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,369 - DEBUG - Window: left_limit 999, slice_start 1334, right_limit 10707
+2021-09-06 00:39:40,369 - DEBUG - Region 4, pool 2
+2021-09-06 00:39:40,369 - DEBUG - Finding primers for slice 1334 to 1910
+2021-09-06 00:39:40,494 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+ACCTCAAATACACCGTCATCATTACAGTGCACACAGGAGACCAA...TGA NC_001475.2
+2021-09-06 00:39:40,494 - DEBUG - Picked primer LEFT:ATTACAGTGCACACAGGAGACC:1354
+2021-09-06 00:39:40,494 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+ATTACAGTGCACACAGGAGACC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:40,494 - DEBUG - LEFT candidate 0: base pen 0.529, combined pen 0.529, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,495 - DEBUG - LEFT candidate 1: base pen 0.530, combined pen 0.530, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,495 - DEBUG - LEFT candidate 2: base pen 0.530, combined pen 0.530, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,495 - DEBUG - LEFT candidate 3: base pen 0.728, combined pen 0.728, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,495 - DEBUG - LEFT candidate 4: base pen 0.728, combined pen 0.728, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,495 - DEBUG - LEFT candidate 5: base pen 0.918, combined pen 0.918, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,495 - DEBUG - LEFT candidate 6: base pen 0.918, combined pen 0.918, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,495 - DEBUG - LEFT candidate 7: base pen 1.136, combined pen 1.136, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,496 - DEBUG - LEFT candidate 8: base pen 1.193, combined pen 1.193, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,496 - DEBUG - LEFT candidate 9: base pen 1.450, combined pen 1.450, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,496 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+CCTTTGTACTCAACCTTAATGAGTATTGTCCCGTGCTGCGTTTC...TCA NC_001475.2
+2021-09-06 00:39:40,496 - DEBUG - Picked primer RIGHT:AATGAGTATTGTCCCGTGCTGC:1893
+2021-09-06 00:39:40,496 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+AATGAGTATTGTCCCGTGCTGC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:40,496 - DEBUG - RIGHT candidate 0: base pen 0.439, combined pen 0.439, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,496 - DEBUG - RIGHT candidate 1: base pen 1.154, combined pen 1.154, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,497 - DEBUG - RIGHT candidate 2: base pen 1.239, combined pen 1.239, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,497 - DEBUG - RIGHT candidate 3: base pen 1.636, combined pen 1.636, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,497 - DEBUG - RIGHT candidate 4: base pen 1.902, combined pen 1.902, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,497 - DEBUG - RIGHT candidate 5: base pen 2.004, combined pen 2.004, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,497 - DEBUG - RIGHT candidate 6: base pen 2.242, combined pen 2.242, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,497 - DEBUG - RIGHT candidate 7: base pen 2.310, combined pen 2.310, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,497 - DEBUG - RIGHT candidate 8: base pen 2.312, combined pen 2.312, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,498 - DEBUG - RIGHT candidate 9: base pen 2.379, combined pen 2.379, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,500 - DEBUG - Window: left_limit 1445, slice_start 1783, right_limit 10707
+2021-09-06 00:39:40,500 - DEBUG - Region 5, pool 1
+2021-09-06 00:39:40,500 - DEBUG - Finding primers for slice 1783 to 2359
+2021-09-06 00:39:40,628 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+AGACTTAAGATGGACAAATTGGAACTCAAGGGGATGAGCTATGC...CCT NC_001475.2
+2021-09-06 00:39:40,628 - DEBUG - Picked primer LEFT:CTCAAGGGGATGAGCTATGCAA:1807
+2021-09-06 00:39:40,628 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+CTCAAGGGGATGAGCTATGCAA NC_001475.2
+********************** Cigar
+2021-09-06 00:39:40,629 - DEBUG - LEFT candidate 0: base pen 0.658, combined pen 0.658, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,629 - DEBUG - LEFT candidate 1: base pen 1.012, combined pen 1.012, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,629 - DEBUG - LEFT candidate 2: base pen 1.265, combined pen 1.265, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,629 - DEBUG - LEFT candidate 3: base pen 1.381, combined pen 1.381, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,629 - DEBUG - LEFT candidate 4: base pen 2.223, combined pen 2.223, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,629 - DEBUG - LEFT candidate 5: base pen 2.315, combined pen 2.315, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,630 - DEBUG - LEFT candidate 6: base pen 2.385, combined pen 2.385, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,630 - DEBUG - LEFT candidate 7: base pen 2.598, combined pen 2.598, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,630 - DEBUG - LEFT candidate 8: base pen 2.598, combined pen 2.598, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,630 - DEBUG - LEFT candidate 9: base pen 2.628, combined pen 2.628, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,630 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+AAAATGACATGGATGTGTTTTTTGAATTCAACCCTATCCAAGTC...TCC NC_001475.2
+2021-09-06 00:39:40,630 - DEBUG - Picked primer RIGHT:TTTTGAATTCAACCCTATCCAAGTCA:2340
+2021-09-06 00:39:40,630 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 26 columns
+TTTTGAATTCAACCCTATCCAAGTCA NC_001475.2
+************************** Cigar
+2021-09-06 00:39:40,631 - DEBUG - RIGHT candidate 0: base pen 5.335, combined pen 5.335, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,631 - DEBUG - RIGHT candidate 1: base pen 5.335, combined pen 5.335, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,631 - DEBUG - RIGHT candidate 2: base pen 5.791, combined pen 5.791, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,631 - DEBUG - RIGHT candidate 3: base pen 5.791, combined pen 5.791, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,631 - DEBUG - RIGHT candidate 4: base pen 6.285, combined pen 6.285, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,633 - DEBUG - Window: left_limit 1894, slice_start 2226, right_limit 10707
+2021-09-06 00:39:40,633 - DEBUG - Region 6, pool 2
+2021-09-06 00:39:40,634 - DEBUG - Finding primers for slice 2226 to 2802
+2021-09-06 00:39:40,756 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+CAAAATGGTGCACCAAATATTTGGAAGTGCTTATACAGCCCTGT...TGG NC_001475.2
+2021-09-06 00:39:40,756 - DEBUG - Picked primer LEFT:CAAATATTTGGAAGTGCTTATACAGCC:2239
+2021-09-06 00:39:40,756 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 27 columns
+CAAATATTTGGAAGTGCTTATACAGCC NC_001475.2
+*************************** Cigar
+2021-09-06 00:39:40,756 - DEBUG - LEFT candidate 0: base pen 6.164, combined pen 6.164, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,756 - DEBUG - LEFT candidate 1: base pen 6.684, combined pen 6.684, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,756 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+ATTTTGTGTTTCAGCTGTCACTATTTTTGCCTTTCCCCACGTTT...AGC NC_001475.2
+2021-09-06 00:39:40,756 - DEBUG - Picked primer RIGHT:TTTTGCCTTTCCCCACGTTTTC:2778
+2021-09-06 00:39:40,757 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TTTTGCCTTTCCCCACGTTTTC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:40,757 - DEBUG - RIGHT candidate 0: base pen 0.401, combined pen 0.401, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,757 - DEBUG - RIGHT candidate 1: base pen 0.790, combined pen 0.790, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,757 - DEBUG - RIGHT candidate 2: base pen 0.988, combined pen 0.988, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,757 - DEBUG - RIGHT candidate 3: base pen 1.136, combined pen 1.136, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,757 - DEBUG - RIGHT candidate 4: base pen 1.180, combined pen 1.180, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,758 - DEBUG - RIGHT candidate 5: base pen 1.264, combined pen 1.264, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,758 - DEBUG - RIGHT candidate 6: base pen 1.373, combined pen 1.373, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,758 - DEBUG - RIGHT candidate 7: base pen 1.380, combined pen 1.380, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,758 - DEBUG - RIGHT candidate 8: base pen 1.380, combined pen 1.380, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,758 - DEBUG - RIGHT candidate 9: base pen 1.753, combined pen 1.753, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,760 - DEBUG - Window: left_limit 2341, slice_start 2668, right_limit 10707
+2021-09-06 00:39:40,760 - DEBUG - Region 7, pool 1
+2021-09-06 00:39:40,761 - DEBUG - Finding primers for slice 2668 to 3244
+2021-09-06 00:39:40,883 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TTAACGGTAGTTGTGGGCGATACACTTGGGGTCTTAGAGCAAGG...CAC NC_001475.2
+2021-09-06 00:39:40,884 - DEBUG - Picked primer LEFT:CACTTGGGGTCTTAGAGCAAGG:2690
+2021-09-06 00:39:40,884 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+CACTTGGGGTCTTAGAGCAAGG NC_001475.2
+********************** Cigar
+2021-09-06 00:39:40,884 - DEBUG - LEFT candidate 0: base pen 0.202, combined pen 0.202, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,884 - DEBUG - LEFT candidate 1: base pen 0.337, combined pen 0.337, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,884 - DEBUG - LEFT candidate 2: base pen 0.465, combined pen 0.465, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,884 - DEBUG - LEFT candidate 3: base pen 0.465, combined pen 0.465, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,885 - DEBUG - LEFT candidate 4: base pen 0.611, combined pen 0.611, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,885 - DEBUG - LEFT candidate 5: base pen 0.662, combined pen 0.662, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,885 - DEBUG - LEFT candidate 6: base pen 0.856, combined pen 0.856, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,885 - DEBUG - LEFT candidate 7: base pen 0.877, combined pen 0.877, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,885 - DEBUG - LEFT candidate 8: base pen 0.988, combined pen 0.988, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,885 - DEBUG - LEFT candidate 9: base pen 1.074, combined pen 1.074, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,885 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TGAAGTCCAGCTCCAATTTTCCTAAGTGCCAGGGTCCTGCCGTT...GGG NC_001475.2
+2021-09-06 00:39:40,885 - DEBUG - Picked primer RIGHT:TTTTCCTAAGTGCCAGGGTCCT:3228
+2021-09-06 00:39:40,886 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TTTTCCTAAGTGCCAGGGTCCT NC_001475.2
+********************** Cigar
+2021-09-06 00:39:40,886 - DEBUG - RIGHT candidate 0: base pen 0.492, combined pen 0.492, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,886 - DEBUG - RIGHT candidate 1: base pen 0.524, combined pen 0.524, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,886 - DEBUG - RIGHT candidate 2: base pen 1.076, combined pen 1.076, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,886 - DEBUG - RIGHT candidate 3: base pen 1.076, combined pen 1.076, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,886 - DEBUG - RIGHT candidate 4: base pen 1.125, combined pen 1.125, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,886 - DEBUG - RIGHT candidate 5: base pen 1.137, combined pen 1.137, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,887 - DEBUG - RIGHT candidate 6: base pen 1.241, combined pen 1.241, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,887 - DEBUG - RIGHT candidate 7: base pen 1.315, combined pen 1.315, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,887 - DEBUG - RIGHT candidate 8: base pen 1.330, combined pen 1.330, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,887 - DEBUG - RIGHT candidate 9: base pen 1.560, combined pen 1.560, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:40,889 - DEBUG - Window: left_limit 2779, slice_start 3118, right_limit 10707
+2021-09-06 00:39:40,889 - DEBUG - Region 8, pool 2
+2021-09-06 00:39:40,889 - DEBUG - Finding primers for slice 3118 to 3694
+2021-09-06 00:39:41,185 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+GTGCTAGAGAGTGACATGATCATCCCAAAGAGTCTAGCTGGTCC...ACT NC_001475.2
+2021-09-06 00:39:41,185 - DEBUG - Picked primer LEFT:TCCCAAAGAGTCTAGCTGGTCC:3140
+2021-09-06 00:39:41,186 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TCCCAAAGAGTCTAGCTGGTCC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:41,186 - DEBUG - LEFT candidate 0: base pen 0.338, combined pen 0.338, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,186 - DEBUG - LEFT candidate 1: base pen 0.341, combined pen 0.341, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,186 - DEBUG - LEFT candidate 2: base pen 1.083, combined pen 1.083, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,186 - DEBUG - LEFT candidate 3: base pen 1.141, combined pen 1.141, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,186 - DEBUG - LEFT candidate 4: base pen 1.315, combined pen 1.315, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,187 - DEBUG - LEFT candidate 5: base pen 1.320, combined pen 1.320, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,187 - DEBUG - LEFT candidate 6: base pen 1.713, combined pen 1.713, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,187 - DEBUG - LEFT candidate 7: base pen 2.134, combined pen 2.134, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,187 - DEBUG - LEFT candidate 8: base pen 2.177, combined pen 2.177, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,187 - DEBUG - LEFT candidate 9: base pen 2.359, combined pen 2.359, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,187 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+CTAGGTAGGTGACGCCCATTCCCATCCTGTCAGAGGCGTTGGAC...TGT NC_001475.2
+2021-09-06 00:39:41,187 - DEBUG - Picked primer RIGHT:TAGGTGACGCCCATTCCCAT:3689
+2021-09-06 00:39:41,188 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 20 columns
+TAGGTGACGCCCATTCCCAT NC_001475.2
+******************** Cigar
+2021-09-06 00:39:41,188 - DEBUG - RIGHT candidate 0: base pen 2.003, combined pen 2.003, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,188 - DEBUG - RIGHT candidate 1: base pen 2.078, combined pen 2.078, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,190 - DEBUG - Window: left_limit 3229, slice_start 3581, right_limit 10707
+2021-09-06 00:39:41,190 - DEBUG - Region 9, pool 1
+2021-09-06 00:39:41,190 - DEBUG - Finding primers for slice 3581 to 4157
+2021-09-06 00:39:41,311 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TTACGTTTGTGCTCCTTCTCTCAGGGCAAATAACATGGAGAGAC...AAT NC_001475.2
+2021-09-06 00:39:41,311 - DEBUG - Picked primer LEFT:GTTTGTGCTCCTTCTCTCAGGG:3585
+2021-09-06 00:39:41,311 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+GTTTGTGCTCCTTCTCTCAGGG NC_001475.2
+********************** Cigar
+2021-09-06 00:39:41,311 - DEBUG - LEFT candidate 0: base pen 0.054, combined pen 0.054, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,312 - DEBUG - LEFT candidate 1: base pen 0.274, combined pen 0.274, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,312 - DEBUG - LEFT candidate 2: base pen 0.363, combined pen 0.363, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,312 - DEBUG - LEFT candidate 3: base pen 0.880, combined pen 0.880, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,312 - DEBUG - LEFT candidate 4: base pen 0.988, combined pen 0.988, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,312 - DEBUG - LEFT candidate 5: base pen 1.373, combined pen 1.373, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,312 - DEBUG - LEFT candidate 6: base pen 1.444, combined pen 1.444, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,312 - DEBUG - LEFT candidate 7: base pen 1.445, combined pen 1.445, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,313 - DEBUG - LEFT candidate 8: base pen 1.493, combined pen 1.493, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,313 - DEBUG - LEFT candidate 9: base pen 1.656, combined pen 1.656, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,313 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+CCAACAGCCATCACCCCTTCATTCAGTGGCCAGCTTCTCCTTTT...AGC NC_001475.2
+2021-09-06 00:39:41,313 - DEBUG - Picked primer RIGHT:TTCATTCAGTGGCCAGCTTCTC:4140
+2021-09-06 00:39:41,313 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TTCATTCAGTGGCCAGCTTCTC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:41,313 - DEBUG - RIGHT candidate 0: base pen 0.059, combined pen 0.059, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,313 - DEBUG - RIGHT candidate 1: base pen 0.061, combined pen 0.061, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,314 - DEBUG - RIGHT candidate 2: base pen 0.069, combined pen 0.069, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,314 - DEBUG - RIGHT candidate 3: base pen 0.130, combined pen 0.130, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,314 - DEBUG - RIGHT candidate 4: base pen 0.333, combined pen 0.333, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,314 - DEBUG - RIGHT candidate 5: base pen 0.451, combined pen 0.451, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,314 - DEBUG - RIGHT candidate 6: base pen 0.708, combined pen 0.708, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,314 - DEBUG - RIGHT candidate 7: base pen 0.708, combined pen 0.708, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,314 - DEBUG - RIGHT candidate 8: base pen 0.890, combined pen 0.890, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,315 - DEBUG - RIGHT candidate 9: base pen 0.958, combined pen 0.958, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,316 - DEBUG - Window: left_limit 3690, slice_start 4030, right_limit 10707
+2021-09-06 00:39:41,316 - DEBUG - Region 10, pool 2
+2021-09-06 00:39:41,317 - DEBUG - Finding primers for slice 4030 to 4606
+2021-09-06 00:39:41,438 - DEBUG - Primer interaction between CAATGACAGTGGCAGCTATGGG and TAGGTGACGCCCATTCCCAT predicted with a ∆G of -2.06 kcal/mol
+2021-09-06 00:39:41,444 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+AAAACAGATTGGCTCCCAATGACAGTGGCAGCTATGGGAGTTCC...TTA NC_001475.2
+2021-09-06 00:39:41,444 - DEBUG - Picked primer LEFT:CCAATGACAGTGGCAGCTATGG:4045
+2021-09-06 00:39:41,444 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+CCAATGACAGTGGCAGCTATGG NC_001475.2
+********************** Cigar
+2021-09-06 00:39:41,444 - DEBUG - LEFT candidate 0: *interaction, base pen 0.764, combined pen 0.764, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,444 - DEBUG - LEFT candidate 1: base pen 0.764, combined pen 0.764, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,445 - DEBUG - LEFT candidate 2: base pen 0.764, combined pen 0.764, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,445 - DEBUG - LEFT candidate 3: base pen 0.943, combined pen 0.943, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,445 - DEBUG - LEFT candidate 4: base pen 0.943, combined pen 0.943, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,445 - DEBUG - LEFT candidate 5: base pen 1.318, combined pen 1.318, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,445 - DEBUG - LEFT candidate 6: base pen 1.355, combined pen 1.355, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,445 - DEBUG - LEFT candidate 7: base pen 1.487, combined pen 1.487, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,445 - DEBUG - LEFT candidate 8: base pen 1.487, combined pen 1.487, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,446 - DEBUG - LEFT candidate 9: base pen 1.560, combined pen 1.560, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,446 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+CAAAAATTCCTTGCTGTTTGATCCTATAAACCCCTTCTTCCAGT...CTC NC_001475.2
+2021-09-06 00:39:41,446 - DEBUG - Picked primer RIGHT:TGCTGTTTGATCCTATAAACCCCT:4595
+2021-09-06 00:39:41,446 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 24 columns
+TGCTGTTTGATCCTATAAACCCCT NC_001475.2
+************************ Cigar
+2021-09-06 00:39:41,446 - DEBUG - RIGHT candidate 0: base pen 2.901, combined pen 2.901, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,446 - DEBUG - RIGHT candidate 1: base pen 3.328, combined pen 3.328, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,446 - DEBUG - RIGHT candidate 2: base pen 3.328, combined pen 3.328, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,447 - DEBUG - RIGHT candidate 3: base pen 3.687, combined pen 3.687, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,447 - DEBUG - RIGHT candidate 4: base pen 3.687, combined pen 3.687, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,447 - DEBUG - RIGHT candidate 5: base pen 3.802, combined pen 3.802, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,447 - DEBUG - RIGHT candidate 6: base pen 3.918, combined pen 3.918, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,447 - DEBUG - RIGHT candidate 7: base pen 3.980, combined pen 3.980, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,447 - DEBUG - RIGHT candidate 8: base pen 3.980, combined pen 3.980, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,447 - DEBUG - RIGHT candidate 9: base pen 4.202, combined pen 4.202, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,449 - DEBUG - Window: left_limit 4141, slice_start 4483, right_limit 10707
+2021-09-06 00:39:41,449 - DEBUG - Region 11, pool 1
+2021-09-06 00:39:41,449 - DEBUG - Finding primers for slice 4483 to 5059
+2021-09-06 00:39:41,565 - DEBUG - Primer interaction between CTTCTTCCAACTCTGGTGTCGG and TGTTAGTCTACGTGGACCGACA predicted with a ∆G of -2.63 kcal/mol
+2021-09-06 00:39:41,569 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TGGCACACTTGGCAAAAACAAACCCAAAGATCCGGCGTTTTATG...CCC NC_001475.2
+2021-09-06 00:39:41,569 - DEBUG - Picked primer LEFT:AACCCAAAGATCCGGCGTTTTA:4503
+2021-09-06 00:39:41,569 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+AACCCAAAGATCCGGCGTTTTA NC_001475.2
+********************** Cigar
+2021-09-06 00:39:41,569 - DEBUG - LEFT candidate 0: base pen 0.003, combined pen 0.003, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,569 - DEBUG - LEFT candidate 1: base pen 0.197, combined pen 0.197, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,569 - DEBUG - LEFT candidate 2: base pen 0.595, combined pen 0.595, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,570 - DEBUG - LEFT candidate 3: base pen 0.599, combined pen 0.599, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,570 - DEBUG - LEFT candidate 4: base pen 0.599, combined pen 0.599, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,570 - DEBUG - LEFT candidate 5: base pen 0.599, combined pen 0.599, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,570 - DEBUG - LEFT candidate 6: base pen 0.664, combined pen 0.664, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,570 - DEBUG - LEFT candidate 7: base pen 0.664, combined pen 0.664, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,570 - DEBUG - LEFT candidate 8: base pen 0.782, combined pen 0.782, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,570 - DEBUG - LEFT candidate 9: base pen 0.856, combined pen 0.856, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,571 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TCTCTTCTTCCAACTCTGGTGTCGGTCCATCTGGTTCTGCATTT...GCT NC_001475.2
+2021-09-06 00:39:41,571 - DEBUG - Picked primer RIGHT:CGGTCCATCTGGTTCTGCATTT:5037
+2021-09-06 00:39:41,571 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+CGGTCCATCTGGTTCTGCATTT NC_001475.2
+********************** Cigar
+2021-09-06 00:39:41,571 - DEBUG - RIGHT candidate 0: *interaction, base pen 0.047, combined pen 0.047, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,571 - DEBUG - RIGHT candidate 1: base pen 0.383, combined pen 0.383, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,571 - DEBUG - RIGHT candidate 2: base pen 0.729, combined pen 0.729, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,571 - DEBUG - RIGHT candidate 3: base pen 0.856, combined pen 0.856, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,572 - DEBUG - RIGHT candidate 4: base pen 0.985, combined pen 0.985, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,572 - DEBUG - RIGHT candidate 5: base pen 1.068, combined pen 1.068, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,572 - DEBUG - RIGHT candidate 6: base pen 1.099, combined pen 1.099, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,572 - DEBUG - RIGHT candidate 7: base pen 1.109, combined pen 1.109, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,572 - DEBUG - RIGHT candidate 8: base pen 1.137, combined pen 1.137, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,572 - DEBUG - RIGHT candidate 9: base pen 1.169, combined pen 1.169, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,574 - DEBUG - Window: left_limit 4596, slice_start 4927, right_limit 10707
+2021-09-06 00:39:41,574 - DEBUG - Region 12, pool 2
+2021-09-06 00:39:41,574 - DEBUG - Finding primers for slice 4927 to 5503
+2021-09-06 00:39:41,695 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+ATCATAAATAGAGAGGGAAAGGTAGTGGGACTGTATGGCAATGG...ATG NC_001475.2
+2021-09-06 00:39:41,695 - DEBUG - Picked primer LEFT:AGAGGGAAAGGTAGTGGGACTG:4938
+2021-09-06 00:39:41,695 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+AGAGGGAAAGGTAGTGGGACTG NC_001475.2
+********************** Cigar
+2021-09-06 00:39:41,695 - DEBUG - LEFT candidate 0: base pen 0.014, combined pen 0.014, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,695 - DEBUG - LEFT candidate 1: base pen 0.016, combined pen 0.016, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,695 - DEBUG - LEFT candidate 2: base pen 0.016, combined pen 0.016, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,696 - DEBUG - LEFT candidate 3: base pen 0.188, combined pen 0.188, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,696 - DEBUG - LEFT candidate 4: base pen 0.254, combined pen 0.254, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,696 - DEBUG - LEFT candidate 5: base pen 0.254, combined pen 0.254, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,696 - DEBUG - LEFT candidate 6: base pen 0.278, combined pen 0.278, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,696 - DEBUG - LEFT candidate 7: base pen 0.619, combined pen 0.619, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,696 - DEBUG - LEFT candidate 8: base pen 0.925, combined pen 0.925, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,696 - DEBUG - LEFT candidate 9: base pen 0.989, combined pen 0.989, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,697 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+CGTTGCTCTGAGGAAAGGCATCAGCTGTTCCAGGGGGTGTTGCT...GGC NC_001475.2
+2021-09-06 00:39:41,697 - DEBUG - Picked primer RIGHT:GTTGCTCTGAGGAAAGGCATCA:5502
+2021-09-06 00:39:41,697 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+GTTGCTCTGAGGAAAGGCATCA NC_001475.2
+********************** Cigar
+2021-09-06 00:39:41,697 - DEBUG - RIGHT candidate 0: base pen 0.059, combined pen 0.059, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,697 - DEBUG - RIGHT candidate 1: base pen 0.059, combined pen 0.059, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,697 - DEBUG - RIGHT candidate 2: base pen 0.061, combined pen 0.061, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,697 - DEBUG - RIGHT candidate 3: base pen 0.700, combined pen 0.700, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,698 - DEBUG - RIGHT candidate 4: base pen 0.958, combined pen 0.958, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,698 - DEBUG - RIGHT candidate 5: base pen 0.958, combined pen 0.958, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,698 - DEBUG - RIGHT candidate 6: base pen 0.999, combined pen 0.999, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,698 - DEBUG - RIGHT candidate 7: base pen 1.007, combined pen 1.007, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,698 - DEBUG - RIGHT candidate 8: base pen 1.009, combined pen 1.009, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,698 - DEBUG - RIGHT candidate 9: base pen 1.050, combined pen 1.050, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,700 - DEBUG - Window: left_limit 5038, slice_start 5392, right_limit 10707
+2021-09-06 00:39:41,700 - DEBUG - Region 13, pool 1
+2021-09-06 00:39:41,700 - DEBUG - Finding primers for slice 5392 to 5968
+2021-09-06 00:39:41,828 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+AGTATAGCGGCTAGAGGGTACATATCAACTCGTGTTGGAATGGG...TCT NC_001475.2
+2021-09-06 00:39:41,828 - DEBUG - Picked primer LEFT:AGCGGCTAGAGGGTACATATCA:5397
+2021-09-06 00:39:41,829 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+AGCGGCTAGAGGGTACATATCA NC_001475.2
+********************** Cigar
+2021-09-06 00:39:41,829 - DEBUG - LEFT candidate 0: base pen 0.590, combined pen 0.590, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,829 - DEBUG - LEFT candidate 1: base pen 1.012, combined pen 1.012, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,829 - DEBUG - LEFT candidate 2: base pen 1.135, combined pen 1.135, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,829 - DEBUG - LEFT candidate 3: base pen 1.190, combined pen 1.190, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,829 - DEBUG - LEFT candidate 4: base pen 1.380, combined pen 1.380, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,829 - DEBUG - LEFT candidate 5: base pen 1.752, combined pen 1.752, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,830 - DEBUG - LEFT candidate 6: base pen 1.752, combined pen 1.752, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,830 - DEBUG - LEFT candidate 7: base pen 2.167, combined pen 2.167, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,830 - DEBUG - LEFT candidate 8: base pen 2.349, combined pen 2.349, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,830 - DEBUG - LEFT candidate 9: base pen 2.600, combined pen 2.600, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,830 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+GGTCTTCATCATTGTTGAGAGGCTGGCCCGTGAATATGTACTGG...TGG NC_001475.2
+2021-09-06 00:39:41,830 - DEBUG - Picked primer RIGHT:CTGGCCCGTGAATATGTACTGG:5946
+2021-09-06 00:39:41,830 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+CTGGCCCGTGAATATGTACTGG NC_001475.2
+********************** Cigar
+2021-09-06 00:39:41,831 - DEBUG - RIGHT candidate 0: base pen 0.013, combined pen 0.013, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,831 - DEBUG - RIGHT candidate 1: base pen 0.014, combined pen 0.014, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,831 - DEBUG - RIGHT candidate 2: base pen 0.125, combined pen 0.125, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,831 - DEBUG - RIGHT candidate 3: base pen 0.558, combined pen 0.558, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,831 - DEBUG - RIGHT candidate 4: base pen 0.671, combined pen 0.671, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,831 - DEBUG - RIGHT candidate 5: base pen 1.023, combined pen 1.023, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,831 - DEBUG - RIGHT candidate 6: base pen 1.212, combined pen 1.212, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,832 - DEBUG - RIGHT candidate 7: base pen 1.371, combined pen 1.371, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,832 - DEBUG - RIGHT candidate 8: base pen 1.420, combined pen 1.420, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,832 - DEBUG - RIGHT candidate 9: base pen 1.686, combined pen 1.686, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:41,834 - DEBUG - Window: left_limit 5503, slice_start 5836, right_limit 10707
+2021-09-06 00:39:41,834 - DEBUG - Region 14, pool 2
+2021-09-06 00:39:41,834 - DEBUG - Finding primers for slice 5836 to 6412
+2021-09-06 00:39:41,955 - DEBUG - Stepping left to 5825
+2021-09-06 00:39:41,955 - DEBUG - Finding primers for slice 5825 to 6401
+2021-09-06 00:39:42,077 - DEBUG - Stepping left to 5814
+2021-09-06 00:39:42,077 - DEBUG - Finding primers for slice 5814 to 6390
+2021-09-06 00:39:42,249 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+CTTGACAGATGGACCAGAGCGGGTGATCCTGGCCGGACCAATGC...AGT NC_001475.2
+2021-09-06 00:39:42,249 - DEBUG - Picked primer LEFT:TTGACAGATGGACCAGAGCG:5815
+2021-09-06 00:39:42,249 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 20 columns
+TTGACAGATGGACCAGAGCG NC_001475.2
+******************** Cigar
+2021-09-06 00:39:42,249 - DEBUG - LEFT candidate 0: base pen 3.231, combined pen 3.231, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,250 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+CACAAGATCAAGGGCGATTGACTTTCTGCCAGCCGCAAAGTCCT...GCC NC_001475.2
+2021-09-06 00:39:42,250 - DEBUG - Picked primer RIGHT:TCAAGGGCGATTGACTTTCTGC:6383
+2021-09-06 00:39:42,250 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TCAAGGGCGATTGACTTTCTGC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:42,250 - DEBUG - RIGHT candidate 0: base pen 0.631, combined pen 0.631, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,250 - DEBUG - RIGHT candidate 1: base pen 0.790, combined pen 0.790, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,250 - DEBUG - RIGHT candidate 2: base pen 0.919, combined pen 0.919, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,251 - DEBUG - RIGHT candidate 3: base pen 1.184, combined pen 1.184, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,251 - DEBUG - RIGHT candidate 4: base pen 1.325, combined pen 1.325, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,251 - DEBUG - RIGHT candidate 5: base pen 1.430, combined pen 1.430, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,251 - DEBUG - RIGHT candidate 6: base pen 1.689, combined pen 1.689, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,251 - DEBUG - RIGHT candidate 7: base pen 1.764, combined pen 1.764, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,251 - DEBUG - RIGHT candidate 8: base pen 1.816, combined pen 1.816, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,251 - DEBUG - RIGHT candidate 9: base pen 1.985, combined pen 1.985, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,253 - DEBUG - Window: left_limit 5947, slice_start 6273, right_limit 10707
+2021-09-06 00:39:42,253 - DEBUG - Region 15, pool 1
+2021-09-06 00:39:42,254 - DEBUG - Finding primers for slice 6273 to 6849
+2021-09-06 00:39:42,381 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+AGAAAAGAAAAAATTGAGACCTAGGTGGCTTGATGCCCGCACTT...GCA NC_001475.2
+2021-09-06 00:39:42,381 - DEBUG - Picked primer LEFT:TTGAGACCTAGGTGGCTTGATG:6286
+2021-09-06 00:39:42,381 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TTGAGACCTAGGTGGCTTGATG NC_001475.2
+********************** Cigar
+2021-09-06 00:39:42,382 - DEBUG - LEFT candidate 0: base pen 1.054, combined pen 1.054, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,382 - DEBUG - LEFT candidate 1: base pen 1.247, combined pen 1.247, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,382 - DEBUG - LEFT candidate 2: base pen 1.625, combined pen 1.625, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,382 - DEBUG - LEFT candidate 3: base pen 2.049, combined pen 2.049, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,382 - DEBUG - LEFT candidate 4: base pen 2.072, combined pen 2.072, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,382 - DEBUG - LEFT candidate 5: base pen 2.266, combined pen 2.266, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,382 - DEBUG - LEFT candidate 6: base pen 2.471, combined pen 2.471, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,383 - DEBUG - LEFT candidate 7: base pen 2.655, combined pen 2.655, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,383 - DEBUG - LEFT candidate 8: base pen 3.082, combined pen 3.082, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,383 - DEBUG - LEFT candidate 9: base pen 3.093, combined pen 3.093, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,383 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+CTTTGTGGTTTCCAGCAGTCCCATTTCATTGGCTGCTATTGTTG...ATG NC_001475.2
+2021-09-06 00:39:42,383 - DEBUG - Picked primer RIGHT:TCCAGCAGTCCCATTTCATTGG:6839
+2021-09-06 00:39:42,383 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TCCAGCAGTCCCATTTCATTGG NC_001475.2
+********************** Cigar
+2021-09-06 00:39:42,383 - DEBUG - RIGHT candidate 0: base pen 0.069, combined pen 0.069, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,383 - DEBUG - RIGHT candidate 1: base pen 0.264, combined pen 0.264, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,384 - DEBUG - RIGHT candidate 2: base pen 0.264, combined pen 0.264, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,384 - DEBUG - RIGHT candidate 3: base pen 0.527, combined pen 0.527, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,384 - DEBUG - RIGHT candidate 4: base pen 0.654, combined pen 0.654, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,384 - DEBUG - RIGHT candidate 5: base pen 0.654, combined pen 0.654, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,384 - DEBUG - RIGHT candidate 6: base pen 0.654, combined pen 0.654, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,384 - DEBUG - RIGHT candidate 7: base pen 0.790, combined pen 0.790, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,384 - DEBUG - RIGHT candidate 8: base pen 1.073, combined pen 1.073, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,385 - DEBUG - RIGHT candidate 9: base pen 1.091, combined pen 1.091, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,387 - DEBUG - Window: left_limit 6384, slice_start 6729, right_limit 10707
+2021-09-06 00:39:42,387 - DEBUG - Region 16, pool 2
+2021-09-06 00:39:42,387 - DEBUG - Finding primers for slice 6729 to 7305
+2021-09-06 00:39:42,494 - DEBUG - Primer interaction between AACCAGAAAAGCAGAGAACCCC and CGCATGATTGTGGGGAAGAATG predicted with a ∆G of -2.67 kcal/mol
+2021-09-06 00:39:42,506 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+ACCAGAACCAGAAAAGCAGAGAACCCCCCAAGACAACCAACTCG...GGC NC_001475.2
+2021-09-06 00:39:42,506 - DEBUG - Picked primer LEFT:AGAACCAGAAAAGCAGAGAACCC:6732
+2021-09-06 00:39:42,506 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 23 columns
+AGAACCAGAAAAGCAGAGAACCC NC_001475.2
+*********************** Cigar
+2021-09-06 00:39:42,506 - DEBUG - LEFT candidate 0: *interaction, base pen 0.063, combined pen 0.063, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,507 - DEBUG - LEFT candidate 1: base pen 1.005, combined pen 1.005, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,507 - DEBUG - LEFT candidate 2: base pen 1.255, combined pen 1.255, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,507 - DEBUG - LEFT candidate 3: base pen 1.375, combined pen 1.375, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,507 - DEBUG - LEFT candidate 4: base pen 1.625, combined pen 1.625, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,507 - DEBUG - LEFT candidate 5: base pen 1.693, combined pen 1.693, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,507 - DEBUG - LEFT candidate 6: base pen 1.870, combined pen 1.870, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,507 - DEBUG - LEFT candidate 7: base pen 2.002, combined pen 2.002, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,508 - DEBUG - LEFT candidate 8: base pen 2.002, combined pen 2.002, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,508 - DEBUG - LEFT candidate 9: base pen 2.166, combined pen 2.166, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,508 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TGAATCAAATATTACAGAATCTAGGTCTATTGTCATTATCCCAT...TTC NC_001475.2
+2021-09-06 00:39:42,508 - DEBUG - Picked primer RIGHT:TCTAGGTCTATTGTCATTATCCCATCC:7286
+2021-09-06 00:39:42,508 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 27 columns
+TCTAGGTCTATTGTCATTATCCCATCC NC_001475.2
+*************************** Cigar
+2021-09-06 00:39:42,508 - DEBUG - RIGHT candidate 0: base pen 5.900, combined pen 5.900, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,508 - DEBUG - RIGHT candidate 1: base pen 6.547, combined pen 6.547, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,509 - DEBUG - RIGHT candidate 2: base pen 7.064, combined pen 7.064, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,509 - DEBUG - RIGHT candidate 3: base pen 7.119, combined pen 7.119, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,509 - DEBUG - RIGHT candidate 4: base pen 7.119, combined pen 7.119, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,509 - DEBUG - RIGHT candidate 5: base pen 7.132, combined pen 7.132, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,509 - DEBUG - RIGHT candidate 6: base pen 7.438, combined pen 7.438, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,509 - DEBUG - RIGHT candidate 7: base pen 7.780, combined pen 7.780, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,509 - DEBUG - RIGHT candidate 8: base pen 8.011, combined pen 8.011, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,510 - DEBUG - RIGHT candidate 9: base pen 8.084, combined pen 8.084, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,512 - DEBUG - Window: left_limit 6840, slice_start 7171, right_limit 10707
+2021-09-06 00:39:42,512 - DEBUG - Region 17, pool 1
+2021-09-06 00:39:42,512 - DEBUG - Finding primers for slice 7171 to 7747
+2021-09-06 00:39:42,657 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TATGCTATCATAGGTCCAGGATTGCAAGCAAAAGCCACCCGTGA...CAG NC_001475.2
+2021-09-06 00:39:42,658 - DEBUG - Picked primer LEFT:CATAGGTCCAGGATTGCAAGCA:7179
+2021-09-06 00:39:42,658 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+CATAGGTCCAGGATTGCAAGCA NC_001475.2
+********************** Cigar
+2021-09-06 00:39:42,658 - DEBUG - LEFT candidate 0: base pen 0.133, combined pen 0.133, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,658 - DEBUG - LEFT candidate 1: base pen 0.206, combined pen 0.206, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,658 - DEBUG - LEFT candidate 2: base pen 0.209, combined pen 0.209, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,659 - DEBUG - LEFT candidate 3: base pen 0.362, combined pen 0.362, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,659 - DEBUG - LEFT candidate 4: base pen 0.395, combined pen 0.395, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,659 - DEBUG - LEFT candidate 5: base pen 0.590, combined pen 0.590, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,659 - DEBUG - LEFT candidate 6: base pen 0.617, combined pen 0.617, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,659 - DEBUG - LEFT candidate 7: base pen 0.790, combined pen 0.790, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,659 - DEBUG - LEFT candidate 8: base pen 1.006, combined pen 1.006, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,659 - DEBUG - LEFT candidate 9: base pen 1.011, combined pen 1.011, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,659 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+GTTTTGCGCTACCTCGGGACACGGCATGATGTGTTGTCTCTCCT...TTT NC_001475.2
+2021-09-06 00:39:42,660 - DEBUG - Picked primer RIGHT:ACGGCATGATGTGTTGTCTCTC:7727
+2021-09-06 00:39:42,660 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+ACGGCATGATGTGTTGTCTCTC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:42,660 - DEBUG - RIGHT candidate 0: base pen 0.112, combined pen 0.112, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,660 - DEBUG - RIGHT candidate 1: base pen 0.369, combined pen 0.369, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,660 - DEBUG - RIGHT candidate 2: base pen 0.462, combined pen 0.462, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,660 - DEBUG - RIGHT candidate 3: base pen 0.623, combined pen 0.623, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,660 - DEBUG - RIGHT candidate 4: base pen 0.623, combined pen 0.623, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,661 - DEBUG - RIGHT candidate 5: base pen 0.744, combined pen 0.744, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,661 - DEBUG - RIGHT candidate 6: base pen 1.354, combined pen 1.354, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,661 - DEBUG - RIGHT candidate 7: base pen 1.377, combined pen 1.377, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,661 - DEBUG - RIGHT candidate 8: base pen 1.486, combined pen 1.486, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,661 - DEBUG - RIGHT candidate 9: base pen 1.496, combined pen 1.496, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,663 - DEBUG - Window: left_limit 7287, slice_start 7617, right_limit 10707
+2021-09-06 00:39:42,663 - DEBUG - Region 18, pool 2
+2021-09-06 00:39:42,663 - DEBUG - Finding primers for slice 7617 to 8193
+2021-09-06 00:39:42,796 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TCAATTATCCCGGAAAGAGTTTGACCTTTACAAGAAATCTGGAA...AGA NC_001475.2
+2021-09-06 00:39:42,796 - DEBUG - Picked primer LEFT:TCCCGGAAAGAGTTTGACCTTT:7624
+2021-09-06 00:39:42,796 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TCCCGGAAAGAGTTTGACCTTT NC_001475.2
+********************** Cigar
+2021-09-06 00:39:42,796 - DEBUG - LEFT candidate 0: base pen 0.990, combined pen 0.990, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,796 - DEBUG - LEFT candidate 1: base pen 1.190, combined pen 1.190, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,796 - DEBUG - LEFT candidate 2: base pen 1.560, combined pen 1.560, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,796 - DEBUG - LEFT candidate 3: base pen 2.066, combined pen 2.066, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,797 - DEBUG - LEFT candidate 4: base pen 2.134, combined pen 2.134, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,797 - DEBUG - LEFT candidate 5: base pen 2.250, combined pen 2.250, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,797 - DEBUG - LEFT candidate 6: base pen 2.306, combined pen 2.306, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,797 - DEBUG - LEFT candidate 7: base pen 2.327, combined pen 2.327, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,797 - DEBUG - LEFT candidate 8: base pen 2.327, combined pen 2.327, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,797 - DEBUG - LEFT candidate 9: base pen 2.717, combined pen 2.717, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,797 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TGAAAGTGGATTTCTCACAAGCATTCCTCCATGTTTCCTTTGTA...TCA NC_001475.2
+2021-09-06 00:39:42,797 - DEBUG - Picked primer RIGHT:TCTCACAAGCATTCCTCCATGT:8181
+2021-09-06 00:39:42,798 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TCTCACAAGCATTCCTCCATGT NC_001475.2
+********************** Cigar
+2021-09-06 00:39:42,798 - DEBUG - RIGHT candidate 0: base pen 1.122, combined pen 1.122, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,798 - DEBUG - RIGHT candidate 1: base pen 1.240, combined pen 1.240, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,798 - DEBUG - RIGHT candidate 2: base pen 1.381, combined pen 1.381, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,798 - DEBUG - RIGHT candidate 3: base pen 1.497, combined pen 1.497, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,798 - DEBUG - RIGHT candidate 4: base pen 1.497, combined pen 1.497, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,799 - DEBUG - RIGHT candidate 5: base pen 2.005, combined pen 2.005, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,799 - DEBUG - RIGHT candidate 6: base pen 2.076, combined pen 2.076, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,799 - DEBUG - RIGHT candidate 7: base pen 2.076, combined pen 2.076, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,799 - DEBUG - RIGHT candidate 8: base pen 2.076, combined pen 2.076, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,799 - DEBUG - RIGHT candidate 9: base pen 2.128, combined pen 2.128, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:42,801 - DEBUG - Window: left_limit 7728, slice_start 8071, right_limit 10707
+2021-09-06 00:39:42,801 - DEBUG - Region 19, pool 1
+2021-09-06 00:39:42,801 - DEBUG - Finding primers for slice 8071 to 8647
+2021-09-06 00:39:42,933 - DEBUG - Primer interaction between AAGACTCTCTGCTGGCCAAATG and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.94 kcal/mol
+2021-09-06 00:39:42,937 - DEBUG - Primer interaction between AAAGACTCTCTGCTGGCCAAAT and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.12 kcal/mol
+2021-09-06 00:39:42,940 - DEBUG - Primer interaction between CTTTAAAGACTCTCTGCTGGCCA and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -5.08 kcal/mol
+2021-09-06 00:39:42,944 - DEBUG - Primer interaction between TTTAAAGACTCTCTGCTGGCCA and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -5.08 kcal/mol
+2021-09-06 00:39:42,947 - DEBUG - Primer interaction between TTAAAGACTCTCTGCTGGCCAA and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.01 kcal/mol
+2021-09-06 00:39:42,951 - DEBUG - Primer interaction between TAAAGACTCTCTGCTGGCCAAA and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.33 kcal/mol
+2021-09-06 00:39:42,955 - DEBUG - Primer interaction between TCTTTAAAGACTCTCTGCTGGCC and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -4.54 kcal/mol
+2021-09-06 00:39:42,958 - DEBUG - Primer interaction between AGACTCTCTGCTGGCCAAATG and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.94 kcal/mol
+2021-09-06 00:39:42,962 - DEBUG - Primer interaction between TTTAAAGACTCTCTGCTGGCCAA and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.01 kcal/mol
+2021-09-06 00:39:42,965 - DEBUG - Primer interaction between TTAAAGACTCTCTGCTGGCCAAA and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.33 kcal/mol
+2021-09-06 00:39:42,969 - DEBUG - Primer interaction between AAAGACTCTCTGCTGGCCAAATG and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.94 kcal/mol
+2021-09-06 00:39:42,973 - DEBUG - Primer interaction between TAAAGACTCTCTGCTGGCCAAAT and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.12 kcal/mol
+2021-09-06 00:39:42,977 - DEBUG - Primer interaction between TTTAAAGACTCTCTGCTGGCCAAA and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.33 kcal/mol
+2021-09-06 00:39:42,981 - DEBUG - Primer interaction between AAAGACTCTCTGCTGGCCAAA and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.33 kcal/mol
+2021-09-06 00:39:42,985 - DEBUG - Primer interaction between TTAAAGACTCTCTGCTGGCCAAAT and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.12 kcal/mol
+2021-09-06 00:39:42,989 - DEBUG - Primer interaction between AAGACTCTCTGCTGGCCAAAT and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.12 kcal/mol
+2021-09-06 00:39:42,992 - DEBUG - Primer interaction between TCTCTTTAAAGACTCTCTGCTGGC and TTTTCCTAAGTGCCAGGGTCCT predicted with a ∆G of -2.20 kcal/mol
+2021-09-06 00:39:42,996 - DEBUG - Primer interaction between CTTTAAAGACTCTCTGCTGGCCAA and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.01 kcal/mol
+2021-09-06 00:39:43,000 - DEBUG - Primer interaction between TAAAGACTCTCTGCTGGCCAAATG and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -2.94 kcal/mol
+2021-09-06 00:39:43,004 - DEBUG - Primer interaction between CTCTTTAAAGACTCTCTGCTGGCC and TTCATTCAGTGGCCAGCTTCTC predicted with a ∆G of -4.54 kcal/mol
+2021-09-06 00:39:43,009 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+CCATGGCTAAAAAACAACCAGTTTTGCATTAAAGTTTTGAACCC...TGA NC_001475.2
+2021-09-06 00:39:43,009 - DEBUG - Picked primer LEFT:CCAGTTTTGCATTAAAGTTTTGAACCC:8088
+2021-09-06 00:39:43,010 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 27 columns
+CCAGTTTTGCATTAAAGTTTTGAACCC NC_001475.2
+*************************** Cigar
+2021-09-06 00:39:43,010 - DEBUG - LEFT candidate 0: base pen 5.164, combined pen 5.164, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,010 - DEBUG - LEFT candidate 1: base pen 5.364, combined pen 5.364, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,010 - DEBUG - LEFT candidate 2: base pen 5.577, combined pen 5.577, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,010 - DEBUG - LEFT candidate 3: base pen 6.089, combined pen 6.089, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,010 - DEBUG - LEFT candidate 4: base pen 6.116, combined pen 6.116, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,010 - DEBUG - LEFT candidate 5: base pen 6.710, combined pen 6.710, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,011 - DEBUG - LEFT candidate 6: base pen 7.262, combined pen 7.262, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,011 - DEBUG - LEFT candidate 7: base pen 7.465, combined pen 7.465, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,011 - DEBUG - LEFT candidate 8: base pen 7.557, combined pen 7.557, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,011 - DEBUG - LEFT candidate 9: base pen 8.041, combined pen 8.041, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,011 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TCCTGGTGTCCACTTTCTCTTTAAAGACTCTCTGCTGGCCAAAT...CAT NC_001475.2
+2021-09-06 00:39:43,011 - DEBUG - Picked primer RIGHT:ACTCTCTGCTGGCCAAATGG:8621
+2021-09-06 00:39:43,012 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 20 columns
+ACTCTCTGCTGGCCAAATGG NC_001475.2
+******************** Cigar
+2021-09-06 00:39:43,012 - DEBUG - RIGHT candidate 0: *interaction, base pen 0.061, combined pen 0.061, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,012 - DEBUG - RIGHT candidate 1: *interaction, base pen 0.591, combined pen 0.591, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,012 - DEBUG - RIGHT candidate 2: *interaction, base pen 1.188, combined pen 1.188, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,012 - DEBUG - RIGHT candidate 3: *interaction, base pen 1.188, combined pen 1.188, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,012 - DEBUG - RIGHT candidate 4: *interaction, base pen 1.188, combined pen 1.188, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,012 - DEBUG - RIGHT candidate 5: *interaction, base pen 1.188, combined pen 1.188, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,012 - DEBUG - RIGHT candidate 6: *interaction, base pen 1.439, combined pen 1.439, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,013 - DEBUG - RIGHT candidate 7: *interaction, base pen 1.557, combined pen 1.557, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,013 - DEBUG - RIGHT candidate 8: *interaction, base pen 1.562, combined pen 1.562, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,013 - DEBUG - RIGHT candidate 9: *interaction, base pen 1.562, combined pen 1.562, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,015 - DEBUG - Window: left_limit 8182, slice_start 8513, right_limit 10707
+2021-09-06 00:39:43,015 - DEBUG - Region 20, pool 2
+2021-09-06 00:39:43,015 - DEBUG - Finding primers for slice 8513 to 9089
+2021-09-06 00:39:43,153 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+CCTCCATGATAAATGGAGTCGTGAAACTCCTCACCAAACCATGG...GGT NC_001475.2
+2021-09-06 00:39:43,153 - DEBUG - Picked primer LEFT:TCGTGAAACTCCTCACCAAACC:8531
+2021-09-06 00:39:43,153 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TCGTGAAACTCCTCACCAAACC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:43,153 - DEBUG - LEFT candidate 0: base pen 0.075, combined pen 0.075, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,153 - DEBUG - LEFT candidate 1: base pen 0.184, combined pen 0.184, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,153 - DEBUG - LEFT candidate 2: base pen 0.596, combined pen 0.596, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,154 - DEBUG - LEFT candidate 3: base pen 0.987, combined pen 0.987, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,154 - DEBUG - LEFT candidate 4: base pen 1.008, combined pen 1.008, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,154 - DEBUG - LEFT candidate 5: base pen 1.110, combined pen 1.110, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,154 - DEBUG - LEFT candidate 6: base pen 1.240, combined pen 1.240, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,154 - DEBUG - LEFT candidate 7: base pen 1.557, combined pen 1.557, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,154 - DEBUG - LEFT candidate 8: base pen 1.753, combined pen 1.753, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,154 - DEBUG - LEFT candidate 9: base pen 2.089, combined pen 2.089, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,155 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TCTCCTTCTACTCCACTGTAAGAGTTTTCACGCGAGAACCAGTG...ATC NC_001475.2
+2021-09-06 00:39:43,155 - DEBUG - Picked primer RIGHT:AAGAGTTTTCACGCGAGAACCA:9070
+2021-09-06 00:39:43,155 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+AAGAGTTTTCACGCGAGAACCA NC_001475.2
+********************** Cigar
+2021-09-06 00:39:43,155 - DEBUG - RIGHT candidate 0: base pen 0.080, combined pen 0.080, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,155 - DEBUG - RIGHT candidate 1: base pen 0.296, combined pen 0.296, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,155 - DEBUG - RIGHT candidate 2: base pen 0.548, combined pen 0.548, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,155 - DEBUG - RIGHT candidate 3: base pen 0.728, combined pen 0.728, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,156 - DEBUG - RIGHT candidate 4: base pen 0.801, combined pen 0.801, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,156 - DEBUG - RIGHT candidate 5: base pen 1.258, combined pen 1.258, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,156 - DEBUG - RIGHT candidate 6: base pen 1.426, combined pen 1.426, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,156 - DEBUG - RIGHT candidate 7: base pen 1.504, combined pen 1.504, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,156 - DEBUG - RIGHT candidate 8: base pen 1.506, combined pen 1.506, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,156 - DEBUG - RIGHT candidate 9: base pen 1.568, combined pen 1.568, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,158 - DEBUG - Window: left_limit 8622, slice_start 8960, right_limit 10707
+2021-09-06 00:39:43,158 - DEBUG - Region 21, pool 1
+2021-09-06 00:39:43,158 - DEBUG - Finding primers for slice 8960 to 9536
+2021-09-06 00:39:43,287 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+AAGCAAAAGGCAGTAGAGCTATATGGTACATGTGGTTGGGAGCC...CGA NC_001475.2
+2021-09-06 00:39:43,287 - DEBUG - Picked primer LEFT:TATGGTACATGTGGTTGGGAGC:8981
+2021-09-06 00:39:43,287 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+TATGGTACATGTGGTTGGGAGC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:43,287 - DEBUG - LEFT candidate 0: base pen 0.724, combined pen 0.724, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,287 - DEBUG - LEFT candidate 1: base pen 1.308, combined pen 1.308, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,288 - DEBUG - LEFT candidate 2: base pen 1.555, combined pen 1.555, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,288 - DEBUG - LEFT candidate 3: base pen 2.473, combined pen 2.473, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,288 - DEBUG - LEFT candidate 4: base pen 2.474, combined pen 2.474, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,288 - DEBUG - LEFT candidate 5: base pen 2.474, combined pen 2.474, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,288 - DEBUG - LEFT candidate 6: base pen 3.021, combined pen 3.021, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,288 - DEBUG - LEFT candidate 7: base pen 3.021, combined pen 3.021, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,288 - DEBUG - LEFT candidate 8: base pen 3.128, combined pen 3.128, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,289 - DEBUG - LEFT candidate 9: base pen 3.137, combined pen 3.137, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,289 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+ATTCTTTTTAACCTCTCCACTCCTTTGGTTTCCAACCATTGTGT...GCA NC_001475.2
+2021-09-06 00:39:43,289 - DEBUG - Picked primer RIGHT:CCTCTCCACTCCTTTGGTTTCC:9525
+2021-09-06 00:39:43,289 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+CCTCTCCACTCCTTTGGTTTCC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:43,289 - DEBUG - RIGHT candidate 0: base pen 0.264, combined pen 0.264, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,289 - DEBUG - RIGHT candidate 1: base pen 0.923, combined pen 0.923, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,289 - DEBUG - RIGHT candidate 2: base pen 0.923, combined pen 0.923, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,290 - DEBUG - RIGHT candidate 3: base pen 1.056, combined pen 1.056, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,290 - DEBUG - RIGHT candidate 4: base pen 1.308, combined pen 1.308, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,290 - DEBUG - RIGHT candidate 5: base pen 1.308, combined pen 1.308, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,290 - DEBUG - RIGHT candidate 6: base pen 1.326, combined pen 1.326, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,290 - DEBUG - RIGHT candidate 7: base pen 1.328, combined pen 1.328, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,290 - DEBUG - RIGHT candidate 8: base pen 1.443, combined pen 1.443, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,290 - DEBUG - RIGHT candidate 9: base pen 2.351, combined pen 2.351, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,292 - DEBUG - Window: left_limit 9071, slice_start 9415, right_limit 10707
+2021-09-06 00:39:43,293 - DEBUG - Region 22, pool 2
+2021-09-06 00:39:43,293 - DEBUG - Finding primers for slice 9415 to 9991
+2021-09-06 00:39:43,423 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TTAGTCAGACAAATGGAAGGAGAAGGTGTGCTGACAAAGGCAGA...ATC NC_001475.2
+2021-09-06 00:39:43,423 - DEBUG - Picked primer LEFT:AATGGAAGGAGAAGGTGTGCTG:9426
+2021-09-06 00:39:43,424 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+AATGGAAGGAGAAGGTGTGCTG NC_001475.2
+********************** Cigar
+2021-09-06 00:39:43,424 - DEBUG - LEFT candidate 0: base pen 0.263, combined pen 0.263, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,424 - DEBUG - LEFT candidate 1: base pen 0.332, combined pen 0.332, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,424 - DEBUG - LEFT candidate 2: base pen 0.333, combined pen 0.333, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,424 - DEBUG - LEFT candidate 3: base pen 0.546, combined pen 0.546, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,424 - DEBUG - LEFT candidate 4: base pen 0.569, combined pen 0.569, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,424 - DEBUG - LEFT candidate 5: base pen 0.724, combined pen 0.724, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,425 - DEBUG - LEFT candidate 6: base pen 0.924, combined pen 0.924, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,425 - DEBUG - LEFT candidate 7: base pen 1.050, combined pen 1.050, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,425 - DEBUG - LEFT candidate 8: base pen 1.135, combined pen 1.135, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,425 - DEBUG - LEFT candidate 9: base pen 1.145, combined pen 1.145, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,425 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+GCATGTCTTCTGTAGTCATCCACTGATGGTGAGCATGAATAGAC...TGT NC_001475.2
+2021-09-06 00:39:43,425 - DEBUG - Picked primer RIGHT:GTCATCCACTGATGGTGAGCAT:9977
+2021-09-06 00:39:43,426 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+GTCATCCACTGATGGTGAGCAT NC_001475.2
+********************** Cigar
+2021-09-06 00:39:43,426 - DEBUG - RIGHT candidate 0: base pen 0.397, combined pen 0.397, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,426 - DEBUG - RIGHT candidate 1: base pen 0.397, combined pen 0.397, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,426 - DEBUG - RIGHT candidate 2: base pen 0.397, combined pen 0.397, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,426 - DEBUG - RIGHT candidate 3: base pen 0.605, combined pen 0.605, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,426 - DEBUG - RIGHT candidate 4: base pen 1.009, combined pen 1.009, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,426 - DEBUG - RIGHT candidate 5: base pen 1.056, combined pen 1.056, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,427 - DEBUG - RIGHT candidate 6: base pen 1.056, combined pen 1.056, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,427 - DEBUG - RIGHT candidate 7: base pen 1.188, combined pen 1.188, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,427 - DEBUG - RIGHT candidate 8: base pen 1.250, combined pen 1.250, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,427 - DEBUG - RIGHT candidate 9: base pen 1.394, combined pen 1.394, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,429 - DEBUG - Window: left_limit 9526, slice_start 9867, right_limit 10707
+2021-09-06 00:39:43,429 - DEBUG - Region 23, pool 1
+2021-09-06 00:39:43,429 - DEBUG - Finding primers for slice 9867 to 10443
+2021-09-06 00:39:43,604 - DEBUG - Primer interaction between TCCCAGGTTTTACGTCCCCA and CACTTGGGGTCTTAGAGCAAGG predicted with a ∆G of -2.20 kcal/mol
+2021-09-06 00:39:43,604 - DEBUG - Stepping left to 9856
+2021-09-06 00:39:43,604 - DEBUG - Finding primers for slice 9856 to 10432
+2021-09-06 00:39:43,740 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+ATGTATTTTCACAGAAGAGATCTCAGATTAGCATCCAACGCCAT...CAG NC_001475.2
+2021-09-06 00:39:43,740 - DEBUG - Picked primer LEFT:CTCAGATTAGCATCCAACGCCA:9877
+2021-09-06 00:39:43,741 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+CTCAGATTAGCATCCAACGCCA NC_001475.2
+********************** Cigar
+2021-09-06 00:39:43,741 - DEBUG - LEFT candidate 0: base pen 0.077, combined pen 0.077, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,741 - DEBUG - LEFT candidate 1: base pen 0.336, combined pen 0.336, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,741 - DEBUG - LEFT candidate 2: base pen 0.658, combined pen 0.658, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,741 - DEBUG - LEFT candidate 3: base pen 1.058, combined pen 1.058, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,741 - DEBUG - LEFT candidate 4: base pen 1.307, combined pen 1.307, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,741 - DEBUG - LEFT candidate 5: base pen 1.816, combined pen 1.816, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,742 - DEBUG - LEFT candidate 6: base pen 2.106, combined pen 2.106, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,742 - DEBUG - LEFT candidate 7: base pen 2.117, combined pen 2.117, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,742 - DEBUG - LEFT candidate 8: base pen 2.120, combined pen 2.120, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,742 - DEBUG - LEFT candidate 9: base pen 2.184, combined pen 2.184, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,742 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+TACGTCCCCACGACGGAGCTACAGGCAGCACGGTTTGCTCAAAC...CTG NC_001475.2
+2021-09-06 00:39:43,742 - DEBUG - Picked primer RIGHT:AGCTACAGGCAGCACGGTTT:10416
+2021-09-06 00:39:43,743 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 20 columns
+AGCTACAGGCAGCACGGTTT NC_001475.2
+******************** Cigar
+2021-09-06 00:39:43,743 - DEBUG - RIGHT candidate 0: base pen 3.414, combined pen 3.414, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,745 - DEBUG - Window: left_limit 9978, slice_start 10130, right_limit 10707
+2021-09-06 00:39:43,745 - DEBUG - Region 24, pool 2
+2021-09-06 00:39:43,745 - DEBUG - Finding primers for slice 10130 to 10706
+2021-09-06 00:39:43,876 - DEBUG - Left region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+GAGCAACCTGGGCCCAGAACATACCCACAGCAATTCAACAGGTG...CAA NC_001475.2
+2021-09-06 00:39:43,877 - DEBUG - Picked primer LEFT:CCCAGAACATACCCACAGCAAT:10142
+2021-09-06 00:39:43,877 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+CCCAGAACATACCCACAGCAAT NC_001475.2
+********************** Cigar
+2021-09-06 00:39:43,877 - DEBUG - LEFT candidate 0: base pen 0.195, combined pen 0.195, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,877 - DEBUG - LEFT candidate 1: base pen 0.518, combined pen 0.518, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,877 - DEBUG - LEFT candidate 2: base pen 0.657, combined pen 0.657, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,877 - DEBUG - LEFT candidate 3: base pen 0.779, combined pen 0.779, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,878 - DEBUG - LEFT candidate 4: base pen 0.791, combined pen 0.791, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,878 - DEBUG - LEFT candidate 5: base pen 1.241, combined pen 1.241, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,878 - DEBUG - LEFT candidate 6: base pen 1.387, combined pen 1.387, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,878 - DEBUG - LEFT candidate 7: base pen 1.484, combined pen 1.484, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,878 - DEBUG - LEFT candidate 8: base pen 1.564, combined pen 1.564, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,878 - DEBUG - LEFT candidate 9: base pen 1.624, combined pen 1.624, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,878 - DEBUG - Right region flank MSA: Alphabet() alignment with 1 rows and 61 columns
+AGAACCTGTTGATTCAACAGCACCATTCCATTTTCTGGCGTTCT...GCT NC_001475.2
+2021-09-06 00:39:43,878 - DEBUG - Picked primer RIGHT:CAGCACCATTCCATTTTCTGGC:10689
+2021-09-06 00:39:43,879 - DEBUG - Picked MSA slice: Alphabet() alignment with 2 rows and 22 columns
+CAGCACCATTCCATTTTCTGGC NC_001475.2
+********************** Cigar
+2021-09-06 00:39:43,879 - DEBUG - RIGHT candidate 0: base pen 0.145, combined pen 0.145, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,879 - DEBUG - RIGHT candidate 1: base pen 0.791, combined pen 0.791, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,879 - DEBUG - RIGHT candidate 2: base pen 1.051, combined pen 1.051, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,879 - DEBUG - RIGHT candidate 3: base pen 1.076, combined pen 1.076, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,879 - DEBUG - RIGHT candidate 4: base pen 1.163, combined pen 1.163, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,880 - DEBUG - RIGHT candidate 5: base pen 1.168, combined pen 1.168, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,880 - DEBUG - RIGHT candidate 6: base pen 1.222, combined pen 1.222, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,880 - DEBUG - RIGHT candidate 7: base pen 1.313, combined pen 1.313, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,880 - DEBUG - RIGHT candidate 8: base pen 1.323, combined pen 1.323, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,880 - DEBUG - RIGHT candidate 9: base pen 1.382, combined pen 1.382, 0 max mismatches, 0 total mismatches.
+2021-09-06 00:39:43,883 - INFO - Writing /outputs/71062b0748e7403693ea7740e85d0163/DV3.primer.bed
+2021-09-06 00:39:43,884 - INFO - Writing /outputs/71062b0748e7403693ea7740e85d0163/DV3.insert.bed
+2021-09-06 00:39:43,885 - INFO - Writing /outputs/71062b0748e7403693ea7740e85d0163/DV3.primer.tsv
+2021-09-06 00:39:43,885 - INFO - Writing /outputs/71062b0748e7403693ea7740e85d0163/DV3.reference.fasta
+2021-09-06 00:39:43,918 - INFO - Writing /outputs/71062b0748e7403693ea7740e85d0163/DV3.plot.pdf
+2021-09-06 00:39:43,918 - INFO - Writing /outputs/71062b0748e7403693ea7740e85d0163/DV3.plot.svg
+2021-09-06 00:39:44,059 - INFO - Writing /outputs/71062b0748e7403693ea7740e85d0163/DV3.report.json
